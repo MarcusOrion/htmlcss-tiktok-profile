@@ -1,0 +1,30 @@
+/**CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'TikTok Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 125px;
+
+    .bi-chevron-left, .bi-three-dots {
+        font-size: 23px;
+    }
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #00008B;
+    box-shadow: 6px 3px 2px rgba(69, 69, 69, 0.9);
+    margin-bottom: 15px;
+}
