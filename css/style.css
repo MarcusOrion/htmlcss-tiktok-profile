@@ -72,8 +72,8 @@ body {
         color: white;
         background-color: #FF3364;
         border: none;
-        font-size: 14px;
-        padding: 15px 65px;
+        font-size: 12.5px 15px;
+        padding: 16px 70px;
     }
 
     .bi-instagram, .bi-caret-down-fill  {
@@ -120,24 +120,22 @@ body {
 
 /*Icons Section*/
 .bi-grid-3x2 {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 145px;
     color: #D8D8D8;
 }
 .bi-grid-3x2::after {
-        content: '';
-        position: absolute;
-        left: 63%;
-        bottom: 21px;
-        transform: translateX(-50%);
-        width: 25px;      
-        height: 3px;
-	    background-color: white;
-        /*top: 110px;*/
-        left:30px;
+    content: '';
+    position: absolute;
+    bottom: 343px;
+    transform: translateX(-50%);
+    width: 34px;
+    height: 3px;
+    background-color: gray;
+    left: 154px;
 }
 .bi-heart {
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 175px;
     color: #D8D8D8;
 }
