@@ -90,6 +90,10 @@ body {
     justify-items: center;
     align-items: center;
     margin-top: -3px;
+
+    p {
+        font-weight: 450;
+    }
 }
 .infos > :first-child {
     grid-row: 1;
@@ -148,4 +152,23 @@ body {
     width: 170px;
     height: 215px;
     object-fit: cover;
+    display: block;
+}
+.grid-item {
+    position: relative;
+    width: 170px;
+    height: 215px;
+    overflow: hidden;
+}
+i.bi-play-fill {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    color: #ffffff;
+    font-style: 'TikTok Sans';
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 3px;
 }
