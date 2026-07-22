@@ -58,6 +58,26 @@ body {
         }
     }
 }
-
-
 /*Follow Button & Icons*/
+.follow-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+
+    button {
+        color: white;
+        background-color: #FF3364;
+        border: none;
+        font-size: 14px;
+        padding: 15px 65px;
+    }
+
+    .bi-instagram, .bi-caret-down-fill  {
+        border: 1.5px solid #D8D8D8;
+        padding: 12px;
+        margin-left: -15px;
+    }
+}
