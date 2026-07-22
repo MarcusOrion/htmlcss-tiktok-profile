@@ -36,7 +36,28 @@ body {
     margin: 30px;
 }
 /*Box Followers*/
+.followers ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    margin-right: 20px;
+    margin-top: -5px;
 
+    li {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+
+        p {
+            font-size: 12px;
+            font-weight: lighter;
+            color: grey;
+        }
+    }
+}
 
 
 /*Follow Button & Icons*/
