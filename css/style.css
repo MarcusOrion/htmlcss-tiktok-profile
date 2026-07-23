@@ -121,22 +121,22 @@ body {
 /*Icons Section*/
 .bi-grid-3x2 {
     font-size: 18px;
-    margin-left: 145px;
+    margin-left: 135px;
     color: #D8D8D8;
 }
 .bi-grid-3x2::after {
     content: '';
     position: absolute;
-    bottom: 343px;
+    bottom: 345px;
     transform: translateX(-50%);
-    width: 34px;
+    width: 35px;
     height: 3px;
     background-color: gray;
-    left: 154px;
+    left: 143px;
 }
 .bi-heart {
     font-size: 15px;
-    margin-left: 175px;
+    margin-left: 200px;
     color: #D8D8D8;
 }
 /*Photo Grid*/
